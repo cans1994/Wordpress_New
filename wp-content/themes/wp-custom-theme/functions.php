@@ -61,13 +61,13 @@ add_action('wp_enqueue_scripts', 'my_theme_enqueue_script');
  */
 
 
-function montheme_menu_class($classes)
+function my_theme_menu_class($classes)
 {
     $classes[] = 'nav_item';
     return $classes;
 }
 
-function montheme_menu_link_class($attrs)
+function my_theme_menu_link_class($attrs)
 {
     $attrs['class'] = 'nav-link';
     return $attrs;
@@ -87,6 +87,6 @@ register_nav_menu('header', 'En tête du menu');
 register_nav_menu('footer', 'Pied de page');
 
 
-add_filter('nav_menu_css_class', 'montheme_menu_class');
+add_filter('nav_menu_css_class', 'my_theme_menu_class');
 
-add_filter('nav_menu_link_attributes', 'montheme_menu_link_class');
+add_filter('nav_menu_link_attributes', 'my_theme_menu_link_class');
