@@ -59,6 +59,17 @@ add_action('wp_enqueue_scripts', 'my_theme_enqueue_script');
 /**
  * fonctionnalités du thème
  */
+function montheme_menu_class($classes)
+{
+    $classes[] = 'nav_item';
+    return $classes;
+}
+
+function montheme_menu_link_class($attrs)
+{
+    $attrs['class'] = 'nav-link';
+    return $attrs;
+}
 
 // activation de la fonctionnalité des balises HTML5
 add_theme_support('html5');
@@ -69,3 +80,5 @@ add_theme_support('post-thumbnails');
 //activation de la fonctionnalité du menu
 add_theme_support('menus');
 register_nav_menu('header', 'En tête du menu');
+add_filter('nav_menu_css_class', 'montheme_menu_class');
+add_filter('nav_menu_link_attributes', 'montheme_menu_link_class');
