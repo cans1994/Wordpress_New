@@ -21,7 +21,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Menu</a>
@@ -66,5 +66,3 @@
         <?= get_search_form() ?>
 
     </nav>
-
-    <?php body_class();
