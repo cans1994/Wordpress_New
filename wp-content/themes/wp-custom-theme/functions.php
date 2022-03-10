@@ -80,7 +80,7 @@ add_theme_support('title-tag');
 // activation de la fonctionnalité des vignettes
 add_theme_support('post-thumbnails');
 //activation de la fonctionnalité du menu
-add_theme_support('menus');
+//add_theme_support('menus');
 //activation de la fonctionnalité du logo
 add_theme_support('custom-logo');
 
