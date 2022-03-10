@@ -10,7 +10,7 @@ Text Domain: wp-custom-theme
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
 
 body {
-  background: lightslategrey;
+  background: #778899;
   font-family: "Lexend", sans-serif;
 }
 
