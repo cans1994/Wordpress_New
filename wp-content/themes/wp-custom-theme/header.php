@@ -30,6 +30,11 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <?php
+                if (function_exists('the_custom_logo')) {
+                    the_custom_logo();
+                } // vérifie si la fonction (logo) existe pour une classe
+                ?>
                 <?php wp_nav_menu([
                     'theme_location' => 'header',
                     'container' => false,
