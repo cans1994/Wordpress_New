@@ -14,13 +14,13 @@ Description: Our default theme for 2022 is designed to take full advantage of th
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body {
-  background: lightsteelblue;
+  background: rgb(216, 220, 224);
   font-family: "Poppins", sans-serif;
   padding: 20px;
 }
 
 .navbar {
-  background: lightsteelblue;
+  background: rgb(207, 209, 211);
 }
 
 img.alignright {
