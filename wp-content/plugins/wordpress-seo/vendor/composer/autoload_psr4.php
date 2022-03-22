@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'WordProof\\SDK\\' => array($vendorDir . '/wordproof/wordpress-sdk/app'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );
