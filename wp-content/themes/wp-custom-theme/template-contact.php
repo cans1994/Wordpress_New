@@ -77,8 +77,6 @@ get_header();
         }, false);
     })();
 </script>
-</body>
 
-</html>
 <?php
 get_footer(); ?>
