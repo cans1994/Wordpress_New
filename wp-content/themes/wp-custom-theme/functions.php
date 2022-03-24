@@ -60,7 +60,6 @@ add_action('wp_enqueue_scripts', 'my_theme_enqueue_script');
  * fonctionnalités du thème
  */
 
-
 function my_theme_menu_class($classes)
 {
     $classes[] = 'nav_item';
@@ -83,6 +82,7 @@ add_theme_support('post-thumbnails');
 //add_theme_support('menus');
 //activation de la fonctionnalité du logo
 add_theme_support('custom-logo');
+add_theme_support('automatic-feed-links'); // Enregistre la prise en charge du thème pour une fonctionnalité donnée 
 
 register_nav_menu('header', 'En tête du menu');
 
