@@ -5,7 +5,7 @@ Template Name: Template Contact
 get_header();
 ?>
 <div class="container">
-    <h1>Contact :</h1>
+    <h2>Contact :</h2>
     <form class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col-md-4 mb-3">
@@ -81,4 +81,4 @@ get_header();
 
 </html>
 <?php
-get_header(); ?>
+get_footer(); ?>

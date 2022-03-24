@@ -1,11 +1,26 @@
-<h4>2.5.2.1- 02/11/2022</h4>
+<h4>2.5.2.3 - 03/21/2022</h4>
+<p><strong>Hotfix</strong></p>
+<ul>
+		<li>Fix issue where published changes were not reflected until using the cache clearing tool in BB Settings</li>
+</ul>
+
+<h4>2.5.2.2 - 03/17/2022</h4>
+<p><strong>Hotfix</strong></p>
+<ul>
+		<li>Fix partial layout stylesheet not getting updated after making changes to the actual template</li>
+		<li>Remove extra slash in FontAwesome URL</li>
+		<li>Contact Form Module: Fix accessibility issues with form labels for Name and the Success URL</li>
+		<li>Subscribe Module: Fix PHP 8 issue with Drip integration</li>
+</ul>
+
+<h4>2.5.2.1 - 02/11/2022</h4>
 <p><strong>Hotfix</strong></p>
 <ul>
 		<li>Improve compatibility with FontAwesome 6 and our icon picker when using the official FontAwesome plugin</li>
 		<li>Revert Button module: Fix border Style not working if width not specified as it was causing border settings to not be respected in some situations</li>
 </ul>
 
-<h4>2.5.2- 02/10/2022</h4>
+<h4>2.5.2 - 02/10/2022</h4>
 <p><strong>Enhancements</strong></p>
 <ul>
 		<li>Menu module: add submenu indicators on mobile</li>

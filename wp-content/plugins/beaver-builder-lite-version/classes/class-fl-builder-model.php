@@ -565,7 +565,7 @@ final class FLBuilderModel {
 		$post_id  = ( isset( $post->ID ) ) ? $post->ID : false;
 
 		if ( null !== self::$active ) {
-			return self::$active;
+			return apply_filters( 'fl_builder_model_is_builder_active', self::$active );
 		} elseif ( ! is_admin() && is_singular() && $query_id != $post_id ) {
 			self::$active = false;
 		} elseif ( is_customize_preview() ) {
@@ -574,8 +574,7 @@ final class FLBuilderModel {
 			$post_data    = self::get_post_data();
 			self::$active = isset( $_GET['fl_builder'] ) || isset( $post_data['fl_builder'] );
 		}
-
-		return self::$active;
+		return apply_filters( 'fl_builder_model_is_builder_active', self::$active );
 	}
 
 	/**

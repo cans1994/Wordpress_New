@@ -25,6 +25,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--création de la navbar-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <!--<a class="navbar-brand" href="#">Lernumerique</a>-->

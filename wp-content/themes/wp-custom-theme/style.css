@@ -20,7 +20,12 @@ body {
 }
 
 .navbar {
-  background: rgb(207, 209, 211);
+  background: rgb(176, 178, 180);
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
 }
 
 img.alignright {

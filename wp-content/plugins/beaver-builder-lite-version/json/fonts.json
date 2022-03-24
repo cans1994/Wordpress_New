@@ -699,6 +699,11 @@
     "fallback": "sans-serif"
   }
 }, {
+  "BhuTuka Expanded One": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
   "Big Shoulders Display": {
     "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
     "fallback": "sans-serif"
@@ -840,7 +845,7 @@
   }
 }, {
   "Brawler": {
-    "variants": ["regular"],
+    "variants": ["regular", "700"],
     "fallback": "serif"
   }
 }, {
@@ -1894,6 +1899,11 @@
     "fallback": "sans-serif"
   }
 }, {
+  "Fredoka": {
+    "variants": ["300", "regular", "500", "600", "700"],
+    "fallback": "sans-serif"
+  }
+}, {
   "Fredoka One": {
     "variants": ["regular"],
     "fallback": "sans-serif"
@@ -2335,6 +2345,11 @@
   }
 }, {
   "Homenaje": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
+  "Hubballi": {
     "variants": ["regular"],
     "fallback": "sans-serif"
   }
@@ -2944,9 +2959,19 @@
     "fallback": "sans-serif"
   }
 }, {
+  "League Gothic": {
+    "variants": ["regular"],
+    "fallback": "sans-serif"
+  }
+}, {
   "League Script": {
     "variants": ["regular"],
     "fallback": "cursive"
+  }
+}, {
+  "League Spartan": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
   }
 }, {
   "Leckerli One": {
@@ -4844,11 +4869,6 @@
     "fallback": "sans-serif"
   }
 }, {
-  "Open Sans Condensed": {
-    "variants": ["300", "300italic", "700"],
-    "fallback": "sans-serif"
-  }
-}, {
   "Oranienbaum": {
     "variants": ["regular"],
     "fallback": "serif"
@@ -5516,7 +5536,7 @@
 }, {
   "Roboto Serif": {
     "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900", "100italic", "200italic", "300italic", "italic", "500italic", "600italic", "700italic", "800italic", "900italic"],
-    "fallback": "sans-serif"
+    "fallback": "serif"
   }
 }, {
   "Roboto Slab": {
@@ -5957,6 +5977,11 @@
   "Smooch": {
     "variants": ["regular"],
     "fallback": "cursive"
+  }
+}, {
+  "Smooch Sans": {
+    "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+    "fallback": "sans-serif"
   }
 }, {
   "Smythe": {

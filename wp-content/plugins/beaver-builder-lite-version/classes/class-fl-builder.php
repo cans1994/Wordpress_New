@@ -3909,7 +3909,7 @@ final class FLBuilder {
 		 * This will also enqueue the CSS from the CDN.
 		 * @see fl_enable_fa5_pro
 		 */
-		$url = ( self::fa5_pro_enabled() ) ? self::$fa5_pro_url : FL_BUILDER_URL . '/fonts/fontawesome/' . self::get_fa5_version() . '/css/all.min.css';
+		$url = ( self::fa5_pro_enabled() ) ? self::$fa5_pro_url : FL_BUILDER_URL . 'fonts/fontawesome/' . self::get_fa5_version() . '/css/all.min.css';
 
 		/**
 		 * Filter FA5 URL for enqueue.
